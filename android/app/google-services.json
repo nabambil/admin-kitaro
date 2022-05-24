@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "260321087125",
+    "firebase_url": "https://kitaro-4ffe4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kitaro-4ffe4",
+    "storage_bucket": "kitaro-4ffe4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260321087125:android:6386c304bbe7f01389959c",
+        "android_client_info": {
+          "package_name": "com.example.kitaro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260321087125-i5h75kvo4vcbdalh01vnnois2a90647d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kitaro",
+            "certificate_hash": "248d8a1e9f55ea77673bb14736145ae34fbe96cf"
+          }
+        },
+        {
+          "client_id": "260321087125-tl8p7l9c7ikvs4ru174qui9t131lid57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kitaro",
+            "certificate_hash": "d5a14fb75a67a9f99908211ae6493202885aa973"
+          }
+        },
+        {
+          "client_id": "260321087125-k40npnauipqm631cgjp6t5c0dbn5r62d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIuohiWYY6fdLBnDRYc0dwlmvUSvJBaMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260321087125-k40npnauipqm631cgjp6t5c0dbn5r62d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "260321087125-2j484bo61o4us60dhq0sin1s2nmuogs8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kitaro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260321087125:android:88a9dc13fc60236189959c",
+        "android_client_info": {
+          "package_name": "com.worldwide.admin_kitaro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260321087125-k40npnauipqm631cgjp6t5c0dbn5r62d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIuohiWYY6fdLBnDRYc0dwlmvUSvJBaMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260321087125-k40npnauipqm631cgjp6t5c0dbn5r62d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "260321087125-2j484bo61o4us60dhq0sin1s2nmuogs8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kitaro"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260321087125:android:71b39bce84c7ef0e89959c",
+        "android_client_info": {
+          "package_name": "com.worldwide.kitaro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260321087125-c0aea0gkr3dvie21e74jk0dk0uf0ns6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.worldwide.kitaro",
+            "certificate_hash": "248d8a1e9f55ea77673bb14736145ae34fbe96cf"
+          }
+        },
+        {
+          "client_id": "260321087125-s0tsu1p8s611sltgh27ksleo1a657nbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.worldwide.kitaro",
+            "certificate_hash": "d5a14fb75a67a9f99908211ae6493202885aa973"
+          }
+        },
+        {
+          "client_id": "260321087125-k40npnauipqm631cgjp6t5c0dbn5r62d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIuohiWYY6fdLBnDRYc0dwlmvUSvJBaMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260321087125-k40npnauipqm631cgjp6t5c0dbn5r62d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "260321087125-2j484bo61o4us60dhq0sin1s2nmuogs8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kitaro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

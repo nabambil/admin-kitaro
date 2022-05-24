@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kitaro</string>
+    <string name="facebook_app_id">507233854174651</string>
+    <string name="fb_login_protocol_scheme">fb507233854174651</string>
+    <string name="facebook_client_token">82e8ff69b1466055ff2f80831b520d27</string>
+</resources>
