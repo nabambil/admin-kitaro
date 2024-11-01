@@ -55,6 +55,7 @@ dependencies:
   location: ^4.2.0
   gsheets: ^0.3.2
   json_serializable: ^6.1.5
+  excel: ^2.0.1
 
 dev_dependencies:
   flutter_test:

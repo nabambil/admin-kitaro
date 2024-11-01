@@ -10,6 +10,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:state_notifier/state_notifier.dart';
+import 'package:excel/excel.dart';
 
 part 'detail.freezed.dart';
 
@@ -90,8 +91,53 @@ class DetailControllerImp extends DetailController {
     //   throw "no location";
     // });
   }
-  void export() {
-    print(super.filtered.length);
+
+  void export(BuildContext context) {
+    if (results.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text("No Result to export"),
+      ));
+
+      return;
+    }
+    var excel = Excel.createExcel();
+    Sheet sheetObject = excel['$daily.$monthly.$yearly'];
+
+    CellStyle cellStyle = CellStyle(
+        backgroundColorHex: "#BFBADB",
+        fontFamily: getFontFamily(FontFamily.Calibri));
+
+    //header
+    var cell1 = sheetObject.cell(CellIndex.indexByString("A1"));
+    cell1.value = "Country";
+    cell1.cellStyle = cellStyle;
+    var cell2 = sheetObject.cell(CellIndex.indexByString("B1"));
+    cell2.value = "Latitude";
+    cell2.cellStyle = cellStyle;
+    var cell3 = sheetObject.cell(CellIndex.indexByString("C1"));
+    cell3.value = "Longitude";
+    cell3.cellStyle = cellStyle;
+    var cell4 = sheetObject.cell(CellIndex.indexByString("D1"));
+    cell4.value = "Usage";
+    cell4.cellStyle = cellStyle;
+
+    for (var i = 0; i < results.length; i++) {
+      final cellIndex = i + 2;
+      final cellA = sheetObject.cell(CellIndex.indexByString("A$cellIndex"));
+      cellA.value = "MY";
+      final cellB = sheetObject.cell(CellIndex.indexByString("B$cellIndex"));
+      cellB.value = results[i].latStop;
+      final cellC = sheetObject.cell(CellIndex.indexByString("C$cellIndex"));
+      cellC.value = results[i].longStop;
+      final cellD = sheetObject.cell(CellIndex.indexByString("D$cellIndex"));
+      cellD.value = results[i].totalAmount;
+    }
+
+    final String fileName = "${DateTime.now()}";
+
+    excel.delete('Sheet1');
+
+    excel.save(fileName: "$fileName.xlsx");
   }
 
   void filter(BuildContext context) async {
